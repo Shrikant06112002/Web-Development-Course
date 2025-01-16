@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <style>
+    #btn {
+      padding: 15px;
+      background-color: blue;
+      color: white;
+      border: 2px white solid;
+    }
+  </style>
+  <body>
+    <!-- browser events:
+    click
+    contextmenu
+    mouseover/mouseout
+    mouseup/mousedown
+    mousemove
+
+    submit
+    focus
+    DOMcontenLoaded
+
+    trasitioned -->
+
+    <div class="container">
+      <h1>this is heading</h1>
+      <button id="btn" onclick="toogleHide()">Show/hide</button>
+
+      <p id="para">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores,
+        repudiandae earum. Soluta natus nostrum veritatis quas reprehenderit
+        aliquam, doloremque totam animi porro asperiores maxime, perspiciatis
+        accusantium voluptas ipsam. Amet, repellendus. Obcaecati nam, ipsa
+        impedit possimus, dolore labore fugiat, enim inventore sunt autem nobis
+        exercitationem quia. Ut placeat tenetur mollitia sequi quam, rem
+        expedita ipsam sunt amet enim impedit possimus iste. Laboriosam rem
+        minus, perferendis dolores quisquam, magni qui, deleniti reprehenderit
+        quidem magnam eius iusto obcaecati. Molestias in iste, consectetur
+        maiores sunt adipisci totam corrupti tempora dolores ex distinctio,
+        repellat veritatis. Illo natus, hic, excepturi cumque commodi a, earum
+        beatae nostrum ab culpa alias error eligendi? Quibusdam, sit similique,
+        voluptas voluptatum pariatur incidunt consequatur, debitis id possimus
+        suscipit perferendis quo laborum? Inventore amet dicta, impedit nulla,
+        aut corporis accusantium odio quidem rerum ipsum animi ab iure veniam
+        provident magni neque aliquam? Suscipit corrupti asperiores minima,
+        rerum sunt repellat repudiandae dolores eos. Beatae dolore suscipit
+        mollitia excepturi quis, vero sapiente accusamus expedita ut praesentium
+        numquam voluptates omnis repellendus accusantium modi harum iusto illo
+        aspernatur tempore earum natus necessitatibus magnam? Quis, soluta et!
+        Veritatis dolorem ut deserunt quod maiores expedita inventore beatae
+        amet eveniet atque adipisci, alias pariatur assumenda similique
+        excepturi reprehenderit incidunt suscipit! Corrupti consequatur ea
+        doloribus voluptate, similique maiores accusantium laborum. Suscipit,
+        ratione dolorum corrupti numquam, ducimus fugiat qui eius iure commodi
+        sint atque eum similique, sapiente expedita facere perspiciatis dolore.
+        A explicabo optio adipisci delectus mollitia repudiandae odit
+        repellendus minus. Molestias voluptatibus perferendis iste numquam, modi
+        voluptatem itaque ratione harum dolorem perspiciatis, earum nulla quo
+        odit praesentium nihil labore! Quis accusantium inventore voluptas,
+        excepturi quae eveniet dolorem numquam rerum repellendus. Quae fugiat,
+        officiis cumque suscipit excepturi perspiciatis adipisci eveniet
+        deleniti illum praesentium! Vel corporis ipsam corrupti nisi at, earum
+        soluta officiis pariatur nam provident voluptatem quasi fuga rem ex
+        dignissimos? Molestiae, ex vero dolores assumenda modi dolorem veritatis
+        deleniti expedita quo ratione, quia quasi similique ea? Quidem nobis
+        consectetur quibusdam autem, accusantium illum laborum perspiciatis,
+        animi praesentium ea facere est! Dignissimos nostrum ea quae amet non in
+        dolore hic? Fugit, magni. Maxime corrupti assumenda illum quaerat
+        officia repellat est, officiis iusto minima? Debitis dignissimos ipsa
+        voluptatum quas, iusto unde eius. Ut soluta at quis, magnam eius dolor
+        voluptates, dolore iste maiores, tempore delectus animi totam? Omnis
+        quidem, quasi aperiam molestias suscipit, amet tempore vero ipsa ab odio
+        pariatur asperiores id! Fugiat fuga ullam cupiditate molestiae porro
+        iure exercitationem est nostrum ut id voluptate repudiandae praesentium
+        nam at a quos perspiciatis, suscipit consequuntur officia vel molestias,
+        quia provident necessitatibus. Tenetur, incidunt? Sapiente repellendus
+        harum cum et aut ipsa odit cumque quas aliquid modi perferendis quae
+        provident omnis illo voluptatem, facilis molestias, laudantium vitae.
+        Sunt id ipsum cumque voluptates tempora odit quaerat. Ipsum, illum magni
+        rerum ipsa ea mollitia et consequuntur. Velit eveniet atque perspiciatis
+        quasi? Culpa soluta ducimus rem nulla rerum voluptas neque, iste nisi
+        corrupti voluptatum quo nesciunt tempora at. Architecto id reiciendis
+        laborum atque ab tempora, incidunt esse laudantium velit voluptatibus
+        adipisci dolore accusantium labore voluptates aliquid autem mai
+      </p>
+    </div>
+
+    <script>
+    //   let para = document.getElementById("para");
+
+    //   para.addEventListener("mouseover", function run() {
+    //     alert("mouse inside");
+    //   });
+
+    //   para.addEventListener("mouseout", function run() {
+    //     alert("mouse outside");
+    //   });
+
+
+      function toogleHide() {
+        // let btn = document.getElementById("btn");
+        // let para = document.getElementById("para");
+        if (para.style.display != "none") {
+          para.style.display = "none";
+        } else {
+          para.style.display = "block";
+        }
+      }
+    </script>
+  </body>
+</html>
