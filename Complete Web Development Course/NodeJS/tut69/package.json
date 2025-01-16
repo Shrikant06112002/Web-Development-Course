@@ -1,0 +1,21 @@
+{
+  "name": "tut69",
+  "version": "1.0.0",
+  "description": "this is the best pakage",
+  "main": "tut_69_npm.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "shrikant"
+  ],
+  "author": "shrikant",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "slugify": "^1.6.6"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.22"
+  }
+}

@@ -1,0 +1,18 @@
+body{
+    background: white;
+}
+.container-fluid{
+    height: 620px;
+}
+.main_content{
+    padding:20px;
+}
+.card{
+    padding:20px;
+}
+.top_layer{
+    padding:20px;
+}
+.middle_layer{
+    padding: 20px;
+}

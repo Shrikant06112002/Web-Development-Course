@@ -1,0 +1,10 @@
+section{
+    width: 600px;
+    height:600px;
+    background-image: url("https://www.bikesmedia.in/uploads/image/kawasaki/kawasaki-ninja-h2-overview.jpg" );
+    margin: auto;
+    background-size: cover;
+    background-size:centre/20%;
+    /* background-position: bottom; */
+
+}

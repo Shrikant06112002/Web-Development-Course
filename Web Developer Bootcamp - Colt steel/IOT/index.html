@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+    <!-- JavaScript Bundle with Popper -->
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&family=Source+Sans+Pro:wght@200&display=swap"
+        rel="stylesheet">
+
+</head>
+
+<body>
+    <nav id="mainNavbar" class="navbar   navbar-dark navbar-expand-md py-0 fixed-top "
+        style="background-color:rgb(222,192,222)">
+        <a href="#" class="navbar-brand">Weather Mointering System</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navLinks"
+            aria-controls="navLinks" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse text" id="navLinks">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a href="" class="nav-link">HOME</a>
+                </li>
+                <li class="nav-item">
+                    <a href="" class="nav-link">ABOUT</a>
+                </li>
+                <li class="nav-item">
+                    <a href="" class="nav-link">CONTACT US</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <section class="container-fluid px-0">
+        <div id="centre" class="row align-items-center">
+            <div class="col-lg-6 ">
+                <div id="headingGroup" class="text-white text-center d-none d-lg-block mt-5">
+                    <div class="temp">
+                        <iframe width="450" height="260" style="border: 1px solid #cccccc;"
+                            src="https://thingspeak.com/channels/1938239/charts/1?bgcolor=%23ffffff&color=%23d62020&dynamic=true&results=60&type=line&update=15"></iframe>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-6">
+                <div class="humidity">
+                    <iframe width="450" height="260" style="border: 1px solid #cccccc;"
+                        src="https://thingspeak.com/channels/1938239/charts/2?bgcolor=%23ffffff&color=%23d62020&dynamic=true&results=60&type=line&update=15"></iframe>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="container-fluid px-0">
+        <div id="centre" class="row align-items-center">
+            <div class="col-lg-6 ">
+                <div id="headingGroup" class="text-white text-center d-none d-lg-block mt-5">
+                    <div class="temp">
+                        <iframe width="450" height="260" style="border: 1px solid #cccccc;"
+                            src="https://thingspeak.com/channels/1938239/charts/3?bgcolor=%23ffffff&color=%23d62020&dynamic=true&results=60&type=line&update=15"></iframe>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-6">
+                <div class="humidity">
+                    <iframe width="450" height="260" style="border: 1px solid #cccccc;"
+                        src="https://thingspeak.com/channels/1938239/charts/4?bgcolor=%23ffffff&color=%23d62020&dynamic=true&results=60&type=line&update=15"></iframe>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+</body>
+
+</html>

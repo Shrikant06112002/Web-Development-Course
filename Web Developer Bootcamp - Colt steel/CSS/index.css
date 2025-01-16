@@ -1,0 +1,38 @@
+*{
+    background-color: rgb(209, 209, 255);
+}
+img{  
+    width:30%;
+    margin: 20px;
+}
+h1{
+    
+    /* font: bold; */
+    background-color:rgb(11, 241, 11);
+    width: 300px;
+    height: 50px;
+    color: blue;
+    text-align: center;
+    
+    
+}
+h1:hover{
+    text-shadow: 50px black;
+    cursor: pointer;
+    /* box-shadow: 5cm black solid; */
+    background-color:rgb(239, 9, 239);
+    box-shadow: 0 0.5em 0.5em -0.4em black;
+    color: white;
+}
+/* div:hover{
+    cursor:zoom-in;
+    zoom: normal;
+    box-shadow: 0 0.5em 0.5em -0.4em black;
+} */
+img:hover{
+    box-shadow: 10px 5px 5px black;
+    cursor:zoom-in;
+}
+footer{
+    text-align: center;
+}

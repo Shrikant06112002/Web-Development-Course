@@ -1,0 +1,21 @@
+h1{
+    text-align: center;
+}
+nav{
+    font-size: 1.5em;
+}
+ul,li{
+    display: inline;
+    margin: 0;
+    padding: 0;
+}
+
+@media (max-width:800px) and (min-width:600px) {
+    h1{
+        
+        color: yellow;
+    }
+    body{
+        background-color: PINK;
+    }
+}

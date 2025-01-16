@@ -1,0 +1,43 @@
+div{
+    width: 500px;
+    height: 100px;
+    background-color: yellow;
+     border: 0.5cm black;
+    border-width: 0.5 black; 
+ }
+#one{
+    background-color: aliceblue;
+    border: 1cm;
+    border-style: solid;
+    border-color: black ;
+    padding: 1cm;
+    margin:1cm 5cm 3cm 4cm ;
+} 
+#two{
+    background-color: burlywood;
+    border: 0.5cm;
+    border-style: dashed;
+    border-color: blue;
+    border-radius: 1cm;
+    border-left-color: green;
+}
+/* YOUR CODE GOES IN HERE */
+.card{
+    width:210px;
+    border:1px solid grey;
+    text-align:center;
+    border-radius: 5px;
+}
+img{
+    width:50px;
+    border:5px solid rgb(236,183,191);
+    border-radius: 50%;
+}
+button{
+    /* padding: 20px; */
+    padding:30px 10px;
+    padding: 10px 20px 30px 40px;
+    background-color: red;
+    margin:10px 20px 30px 50px;
+
+}

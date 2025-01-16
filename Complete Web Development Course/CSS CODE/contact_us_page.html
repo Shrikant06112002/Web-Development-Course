@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title> 
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="contact-section">
+        <h1>Contact Us</h1>
+        <br>
+    <div class="border">
+    </div> 
+        
+    <form action="https://formsubmit.co/shrikantgaikwad129@gmail.com" class="contact-form" method="post">
+
+      <div class="form">
+         <label for="name">YOUR NAME</label>
+        </div>
+          <input type="text" id="sender" class="contact-form-text" placeholder="Shrikant Gaikwad">
+          <div class="form">
+            <label for="email">YOUR EMAIL</label>
+           </div>
+          <input type="email" id="email" class="contact-form-text" placeholder="xyz@gmail.com">
+          <div class="form">
+            <label for="name">YOUR PHONE</label>
+           </div>
+          <input type="number" id="contact" class="contact-form-text" placeholder="+91 9022209795">
+          <div class="form">
+            <label for="message">YOUR MESSAGE</label>
+           </div>
+          <textarea id="text" class="contact-form-text" placeholder="Message"></textarea>
+          <input type="submit" class="contact-form-btn" value="send">
+        </form>
+
+
+    </div>
+    <script src=" https://smtpjs.com/v3/smtp.js"></script>
+    <script>
+      function sendEmail(){
+        Email.send({
+    Host : "smtp.elasticemail.com",
+    Username : "shrikantgaikwad129@gmail.com",
+    Password : "203FE8B68139806CDD9D523E114984D9B4CD",
+    To : 'shrikantgaikwad129@gmail.com',
+    From : document.getElementById("email").value,
+    Subject : "New Contact Form Enquiry",
+    Body : "And this is the body"
+}).then(
+  message => alert(message)
+);
+      }
+    </script>
+
+      
+</body>
+</html>

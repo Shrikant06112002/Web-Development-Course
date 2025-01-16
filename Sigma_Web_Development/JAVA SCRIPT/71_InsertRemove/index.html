@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container red green" data-createby="shrikant">
+        <div class="box" style="display: flex;">
+            Hey i am the box;
+        </div>
+        <script>
+            // **dynamicallly adding the class 
+            // let div = document.createElement("div");
+            // div.innerHTML = " I have been append div class"
+            // div.setAttribute("class", "created");
+            // // document.querySelector(".box").append(div);
+            // document.querySelector(".box").before(div);
+
+            let cont = document.querySelector(".container");
+            cont.insertAdjacentHTML("afterend", "<b> hey pls help me i am add before the end</b>");
+            cont.insertAdjacentHTML("beforeend", "<b> hey pls help me i am add before the end</b>");
+
+
+
+        </script>
+    </div>
+</body>
+</html>

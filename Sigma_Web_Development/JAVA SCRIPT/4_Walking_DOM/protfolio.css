@@ -1,0 +1,15 @@
+body{
+    height: 100%;
+    width: 100%;
+}
+ul{
+    display: flex;
+    margin: 0;
+    padding: 0px 15px;
+    background-color: grey;
+}
+ul li{
+    list-style:none;
+    padding: 0 23px;
+    color: white;
+}

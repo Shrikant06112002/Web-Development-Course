@@ -1,0 +1,32 @@
+h1{
+    background-color: yellow;
+}
+/* span{
+    background-color: aqua;
+    /* display: block; */
+ 
+
+#i{
+    background-color: blue;
+    padding: 2cm;
+    /* display: block; */
+    display: block;
+ }
+#c{
+    background-color: blue;
+    padding: 2cm;
+    /* display: block; */
+    display: block;
+} 
+#i{
+    background-color: blue;
+    padding: 2cm;
+    /* display: block; */
+    display: inline-block;
+ }
+#c{
+    background-color: blue;
+    padding: 2cm;
+    /* display: block; */
+    display: inline-block;
+} 

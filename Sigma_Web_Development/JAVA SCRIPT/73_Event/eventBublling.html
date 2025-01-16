@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    .child{
+        background:red;
+        height: 100px;
+        width: 100px;
+        margin: 50px;
+        padding:50px;
+    }
+    .childcontainer{
+        background: yellow;
+        width: 300px;
+        height: 300px;
+    }
+    .container{
+        background: #000;
+        width: 500px;
+        height: 500px;
+    }
+
+</style>
+<body>
+    <div class="container">
+        I am Container
+        <div class="childcontainer">
+            I am parent
+            <div class="child">
+                I am a child
+            </div>
+        </div>
+    </div>
+    <script>
+        // let doc = document.querySelector(".child")
+        // doc.addEventListener("click",() => {
+        //     alert("child was clicked")
+        // });
+
+        // let doc2 = document.querySelector(".childcontainer")
+        // doc2.addEventListener("click",() => {
+        //     alert("childcontainer was clicked")
+        // });
+
+        // let doc3 = document.querySelector(".container")
+        // doc3.addEventListener("click",() => {
+        //     alert("container was clicked")
+        // });
+
+        let doc = document.querySelector(".child")
+        doc.addEventListener("click",(e) => {
+            e.stopPropagation();
+            alert("child was clicked")
+        });
+
+        let doc2 = document.querySelector(".childcontainer")
+        doc2.addEventListener("click",(e) => {
+            e.stopPropagation();
+            alert("Parent was clicked")
+        });
+
+        let doc3 = document.querySelector(".container")
+        doc3.addEventListener("click",(e) => {
+            e.stopPropagation();
+            alert("container was clicked")
+        });
+        // doc2.removeEventListener();
+
+        function getRanCol(){
+            let val1 = Math.ceil(0+Math.random()*255);
+            let val2 = Math.ceil(0+Math.random()*255);
+            let val3 = Math.ceil(0+Math.random()*255);
+            return `rgb(${val1}, ${val2}, ${val3})`
+        }
+        // setInterval
+        // let a = setInterval(() => {
+        //     document.querySelector(".child").style.background = getRanCol();
+        // }, 1000);
+
+        // clearInterval(a);
+        let b = setTimeout(() => {
+            document.querySelector(".child").style.background = getRanCol();
+        }, 1000);
+    </script>
+</body>
+</html>

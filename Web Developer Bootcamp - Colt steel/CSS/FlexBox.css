@@ -1,0 +1,51 @@
+h1{
+  text-align: center;  
+}
+section{
+    background-color: black;
+    width: 90%;
+    height: 500px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    justify-content: center;
+    justify-content:space-evenly;
+    justify-content: unsafe;
+    justify-content:stretch; 
+    justify-content:center;
+    /* flex-wrap: wrap; */
+     /* flex-wrap: wrap-reverse;  */
+    align-items: flex-end;
+    align-items: baseline;
+    /* flex-wrap: wrap; */
+    align-content: center;
+    align-content: flex-start; 
+    align-self: flex-end;
+    /* flex-basis:500px; */
+
+    
+}
+div{
+    width:200px;
+    height:200px;
+    text-align: center;
+    color: whitesmoke;
+    /* flex-basis: 400px; */
+    max-width: 300px;
+    min-width: none;
+    /* flex-direction:colum; */
+    
+}
+div:nth-of-type(2){
+    /* align-self: center; */
+    flex-grow:1;
+    flex-shrink: 0;
+}
+div:nth-of-type(3){
+    /* align-self: flex-end; */
+    flex-grow:2;
+}
+div:nth-of-type(4){
+    /* align-self: stretch; */
+    flex-grow: 2;
+}
